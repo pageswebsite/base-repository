@@ -20,7 +20,7 @@ If you don't use auto-discovery, add the ServiceProvider to the providers array 
 'providers' => [
     // Other service providers...
 
-    Kenini\RepositoryServiceProvider::class,
+    Softel\RepositoryServiceProvider::class,
 ],
 ```
 
@@ -41,7 +41,7 @@ UserRepository extends AbstractRepository so you can use method in AbstractRepos
 namespace App\Repositories;
 
 use App\Models\User;
-use Kenini\Repository\AbstractRepository;
+use Softel\Repository\AbstractRepository;
 use App\Repositories\Contracts\UserRepositoryInterface;
 
 class UserRepository extends AbstractRepository implements UserRepositoryInterface
