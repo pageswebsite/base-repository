@@ -1,0 +1,15 @@
+{
+    "name": "cuongdv/base-repository",
+    "autoload": {
+        "psr-4": {
+            "Cuongdv\\BaseRepository\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cuong Dang",
+            "email": "cdang@softel.vn"
+        }
+    ],
+    "require": {}
+}
