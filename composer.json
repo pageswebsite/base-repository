@@ -19,9 +19,6 @@
         }
     },
     "autoload-dev": {
-        "files": [
-            "tests/TestFunctions.php"
-        ],
         "psr-4": {
             "Softel\\Test\\": "tests"
         }
